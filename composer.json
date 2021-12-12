@@ -1,0 +1,29 @@
+{
+    "name": "empat/laravel-twilio",
+    "description": "SMS service wrapper for Laravel by Empat Tech",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Empat\\LaravelTwilio\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Empat\\LaravelTwilio\\LaravelTwilioServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Yaroslav Melnychenko",
+            "email": "ym@empat.tech"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4",
+        "twilio/sdk": "^6.31",
+        "laravel/framework": "^8.75"
+    }
+}
